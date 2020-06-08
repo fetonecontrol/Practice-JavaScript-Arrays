@@ -1,14 +1,19 @@
 let array = [3,2,1]
 
-array.push(4)
-array.pop(2)
-array.shift(0)
-array.unshift(2)
+array.push(4);
+array.pop(2);
+array.shift(0);
+array.unshift(2);
 
 const arr1 = ["thor", "spiderman", "antman", "batman"]
 const arr2 = ["marcy", "Theo", "Norma", "Fredrick"]
+const arr3 = ["sookie", "pearls", "Hank", "Jake"]
 
-let clonearr1 = arr1.cocat(arr2);
+let clonearr1 = arr1.concat(arr2);
+clonearr1.reverse();
+console.log("reversed:", clonearr1);
+clonearr1.push(arr3);
+console.log("with arr3:", clonearr1);
 
 //array[0];
 
